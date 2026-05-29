@@ -1,0 +1,10 @@
+name: tab-news
+
+services:
+  web:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./.:/apps/web
